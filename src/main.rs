@@ -83,7 +83,7 @@ async fn story_comedy(ctx: &Context, msg: &Message) -> CommandResult {
 
 #[command]
 async fn story_horror(ctx: &Context, msg: &Message) -> CommandResult {
-    let rng = rand::thread_rng().gen_range(0, 8);
+    let rng = rand::thread_rng().gen_range(0, 9);
 
     let filename = "data/stories_horror.json";
     let contents = fs::read_to_string(filename)

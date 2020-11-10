@@ -60,7 +60,8 @@ async fn whoami(ctx: &Context, msg: &Message) -> CommandResult {
         "Proud_Imagination_94" => msg.reply(ctx, "The dedicated, talented and cheeky Giraffe.").await?,
         "jkrazy" => msg.reply(ctx, "Lego man (+ a cool beard).").await?,
         "Octagonal" => msg.reply(ctx, "The cute profile picture chief wiz.").await?,
-        "Duc" => msg.reply(ctx, "Doesn't know anything :man_shrugging:.").await?,
+        "Duc" => msg.reply(ctx, "wasn't sure what to put here.").await?,
+        "the Laughing storm | S GMT +2" => msg.reply(ctx, "No one loves him, but he loves dogs.").await?,
         _ => msg.reply(ctx, "You ain't in the list yet.").await?
     };
 
